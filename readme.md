@@ -1,6 +1,6 @@
 # Setup
- Install Docker
-
+ [Docker installation details](https://docs.docker.com/get-docker/)
+ 
  Make sure docker settings in this file `~/.docker/config.json` has these content:
 ```
 {
@@ -11,9 +11,9 @@
 
 * Clone repository
 ```
- cd ~
- git clone https://github.com/Lantore-Energy/radius-desk
- cd radius-desk/rdcore/docker
+cd ~
+git clone https://github.com/Lantore-Energy/radius-desk
+cd radius-desk/rdcore/docker
 ```
 
 - Run 
