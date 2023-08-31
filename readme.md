@@ -16,21 +16,7 @@
  cd radius-desk/rdcore/docker
 ```
 
- **(VERY IMPORTANT)**
-
-* Edit /radius-desk/rdcore/docker/.env file. Replace the content with this.
-
-```
-#content
-RADIUSDESK_VOLUME=~/radius-desk/volume
-RADIUSDESK_NETWORK=radiusdesk-bridge
-```
-
 - Run 
 ```
 sudo sh ./local_build.sh
 ```
-
-
-> RUN ``hostname -I`` to get the IP of the device
-> ON MACOS ``nslookup hostname``
